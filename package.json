@@ -1,0 +1,37 @@
+{
+  "name": "rocketplace-take-home-ex-1",
+  "version": "1.0.0",
+  "description": "Rocketplace Take Home Exercise 1",
+  "main": "index.js",
+  "scripts": {
+    "start:front-end": "parcel front-end/index.html -p 3000",
+    "start:back-end": "cd rptakehome && python manage.py runserver",
+    "build": "parcel build front-end/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rocketplace",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.13",
+    "@types/node": "12.12.5",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@types/react-native": "^0.70.4",
+    "babel-polyfill": "^6.26.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-native": "^0.70.1",
+    "react-router-dom": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/polyfill": "7.6.0",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.1",
+    "@testing-library/react": "^12.1.5",
+    "parcel-bundler": "1.12.4",
+    "typescript": "^4.0.5"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "./root",
+      "typeRoots": ["node_modules/@types"]
+    },
+    "exclude": ["./node_modules/**/*"]
+}
